@@ -1,4 +1,4 @@
-# binusEzyFood-App `:iphone:`
+# binusEzyFood-App :iphone:
 
 <img src="Info/Screenshot_1604388414.png" alt="Main Page" width="300"/>
 
@@ -65,7 +65,7 @@ By using **Singleton Pattern**, I ensure that the Cart created for the first tim
 <img src="Info/Screenshot_1604389338.png" alt="Add Item5" width="300"/>
 
 ### Further Notices
-This was a challenging exam for me, since I hadn't taken any projects/specific-course about Java-Android Programming. However, through the process and hardwork, I found myself enjoying the exam. **Many thanks to the resources used to help created this Simple App** `:grinning:`
+This was a challenging exam for me, since I hadn't taken any projects/specific-course about Java-Android Programming. However, through the process and hardwork, I found myself enjoying the exam. **Many thanks to the resources used to help created this Simple App** :grinning:
 
 
 
