@@ -29,7 +29,7 @@ By using **Singleton Pattern**, I ensure that the Cart created for the first tim
 
 ### Home
 
-![Main_Page](Info/Screenshot_1604388414.png)
+![Main_Page](Info/Screenshot_1604388414.png=300x)
 
 ### If the Cart is Empty
 
