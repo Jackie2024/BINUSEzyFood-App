@@ -1,6 +1,6 @@
 # binusEzyFood-App
 
-![Main_Page](Info/Screenshot_1604388414.png)
+<img src="Info/Screenshot_1604388414.png" alt="Main Page" width="200"/>
 
 This is my final result for **BINUS Mid Exam on Mobile Programming subject (MOBI6059)** (5th Semester). I rushed myself and managed to finish the exam in about 2.5 days by exploring videos on youtube and read several books related. The UI is a bit off but I will refine them once I've had enough time.
 
@@ -28,19 +28,20 @@ By using **Singleton Pattern**, I ensure that the Cart created for the first tim
 # Attachments
 
 ### Home
-<img src="Info/Screenshot_1604388414.png" alt="drawing" width="200"/>
+
+<img src="Info/Screenshot_1604388414.png" alt="Home" width="300"/>
 
 ### If the Cart is Empty
 
-![Empty Cart] (Info/Screenshot_1604388479.png)
+<img src="Info/Screenshot_1604388479.png" alt="Empty Cart" width="300"/>
 
 ### Recycler View Item
 
-![Item List] (Info/Screenshot_1604388545.png)
+<img src="Info/Screenshot_1604388545.png" alt="Item List" width="300"/>
 
 ### Add Item
 
-![Add Item] (Info/Screenshot_1604388987.png)
+<img src="Info/Screenshot_1604388987.png" alt="Add Item" width="300"/>
 ![Add Item2] (Info/Screenshot_1604389040.png)
 
 ### Add the same Item
