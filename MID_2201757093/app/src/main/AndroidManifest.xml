@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mid_2201757093">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/Home"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MID_2201757093">
+        <activity android:name=".OrderSection.OrderList"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ItemDetail"
+            android:label="@string/Order" />
+        <activity
+            android:name=".DrinkSection.DrinkList"
+            android:label="@string/Drinks" />
+        <activity
+            android:name=".FoodSection.FoodList"
+            android:label="@string/Food" />
+        <activity
+            android:name=".SnackSection.SnackList"
+            android:label="@string/Snacks" />
+        <activity
+            android:name=".TopUpSection.TopUpList"
+            android:label="@string/TopUp" />
+        <activity
+            android:name=".OrderSection.OrderResult"
+            android:label="@string/TopUp" />
+    </application>
+
+</manifest>

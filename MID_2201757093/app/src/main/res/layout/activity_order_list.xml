@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderSection.OrderList"
+    android:background="@drawable/ic_background">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/EmptyRelative1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orderan kamu Kosong nih!"
+            android:textSize="20dp"
+            android:id="@+id/EmptyText1"
+            android:visibility="invisible"
+            ></TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/EmptyRelative1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesan di "
+            android:textSize="20dp"
+            android:id="@+id/EmptyText2"
+            android:layout_centerVertical="true"
+            android:visibility="invisible"></TextView>
+
+        <Button
+            android:id="@+id/btnEmptyPost"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_custom_button"
+            android:text="SINI!"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/EmptyText2"
+            app:backgroundTint="@null"
+            android:onClick="Return"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical"
+        android:id="@+id/OrderLinear">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="55dp"
+            android:gravity="center"
+            android:text="@string/MyOrder"
+            android:textColor="@color/white"
+            android:textSize="38dp"
+            android:textStyle="bold"
+            android:typeface="monospace">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btnPayNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_custom_button_order"
+            android:text="Pay Now"
+            android:onClick="PayNow"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/OrderLinear"
+        android:id="@+id/OrderRelative"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/ic_custom_button">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Total: Rp "
+            android:textSize="23dp"
+            android:textColor="@color/white"
+            android:id="@+id/OrderTotalCurrency"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="0"
+            android:id="@+id/OrderTotalPrice"
+            android:textSize="23dp"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@id/OrderTotalCurrency"></TextView>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewOrder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/OrderRelative">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

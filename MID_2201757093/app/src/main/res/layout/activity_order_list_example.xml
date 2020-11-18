@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/ic_custom_button">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:id="@+id/btnOrderList"
+            android:textColor="@color/white"
+            android:onClick="drinkListSection">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:id="@+id/txtOrderQuantity"
+            android:textColor="@color/white"
+            android:layout_below="@id/btnOrderList">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" x Rp "
+            android:layout_gravity="center"
+            android:id="@+id/txtCurrency"
+            android:layout_below="@id/btnOrderList"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@id/txtOrderQuantity">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="130000"
+            android:layout_gravity="center"
+            android:id="@+id/txtOrderDetailPrice"
+            android:layout_below="@id/btnOrderList"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@id/txtCurrency">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" = "
+            android:layout_gravity="center"
+            android:id="@+id/txtEqual"
+            android:layout_below="@id/btnOrderList"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@id/txtOrderDetailPrice">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="39000"
+            android:layout_gravity="center"
+            android:id="@+id/txtTotal"
+            android:layout_below="@id/btnOrderList"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@id/txtEqual">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/btnDelete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_baseline_delete_24"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"></ImageView>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

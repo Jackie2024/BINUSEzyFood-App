@@ -1,0 +1,10 @@
+<resources>
+    <string name="Home">Binus EzyFoody</string>
+    <string name="MyOrder">Binus EzyFoody: My Order</string>
+    <string name="Drinks">Binus EzyFoody: Drinks</string>
+    <string name="Snacks">Binus EzyFoody: Snacks</string>
+    <string name="TopUp">Binus EzyFoody: Top Up</string>
+    <string name="Food">Binus EzyFoody: Foods</string>
+    <string name="Order">Binus EzyFoody: Order</string>
+    <string name="OrderComplete">Binus EzyFoody: Order Complete</string>
+</resources>
