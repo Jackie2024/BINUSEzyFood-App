@@ -1,6 +1,6 @@
-# binusEzyFood-App
+# binusEzyFood-App `:iphone:`
 
-<img src="Info/Screenshot_1604388414.png" alt="Main Page" width="200"/>
+<img src="Info/Screenshot_1604388414.png" alt="Main Page" width="300"/>
 
 This is my final result for **BINUS Mid Exam on Mobile Programming subject (MOBI6059)** (5th Semester). I rushed myself and managed to finish the exam in about 2.5 days by exploring videos on youtube and read several books related. The UI is a bit off but I will refine them once I've had enough time.
 
@@ -41,22 +41,31 @@ By using **Singleton Pattern**, I ensure that the Cart created for the first tim
 
 ### Add Item
 
-<img src="Info/Screenshot_1604388987.png" alt="Add Item" width="300"/>
-![Add Item2] (Info/Screenshot_1604389040.png)
+<p float="left">
+  <img src="Info/Screenshot_1604388987.png" alt="Add Item" width="300"/>
+  <img src="Info/Screenshot_1604389040.png" alt="Add Item2" width="300"/>
+</p>
 
 ### Add the same Item
-![Add Item3] (Info/Screenshot_1604389083.png)
-![Add Item4] (Info/Screenshot_1604389121.png)
+
+<p float="left">
+  <img src="Info/Screenshot_1604389083.png" alt="Add Item3" width="300"/>
+  <img src="Info/Screenshot_1604389121.png" alt="Add Item4" width="300"/>
+</p>
 
 ### Deleting Items
-![Add Item5] (Info/Screenshot_1604389211.png)
-![Add Item6] (Info/Screenshot_1604389238.png)
+
+<p float="left">
+  <img src="Info/Screenshot_1604389211.png" alt="Add Item5" width="300"/>
+  <img src="Info/Screenshot_1604389238.png" alt="Add Item6" width="300"/>
+</p>
 
 ### Check-out
-![Check Out] (Info/Screenshot_1604389338.png)
+
+<img src="Info/Screenshot_1604389338.png" alt="Add Item5" width="300"/>
 
 ### Further Notices
-This was a challenging exam for me, since I hadn't taken any projects/specific-course about Java-Android Programming. However, through the process and hardwork, I found myself enjoying the exam. **Many thanks to the resources used to help created this Simple App**
+This was a challenging exam for me, since I hadn't taken any projects/specific-course about Java-Android Programming. However, through the process and hardwork, I found myself enjoying the exam. **Many thanks to the resources used to help created this Simple App** `:grinning:`
 
 
 
