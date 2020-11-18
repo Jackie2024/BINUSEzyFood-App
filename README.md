@@ -28,8 +28,7 @@ By using **Singleton Pattern**, I ensure that the Cart created for the first tim
 # Attachments
 
 ### Home
-
-![Main_Page](Info/Screenshot_1604388414.png=300x)
+<img src="Info/Screenshot_1604388414.png" alt="drawing" width="200"/>
 
 ### If the Cart is Empty
 
